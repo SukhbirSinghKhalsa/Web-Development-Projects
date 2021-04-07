@@ -1,0 +1,83 @@
+/*background: bg-color bg-image position/bg-size bg-repeat bg-origin 
+bg-clip bg-attachment initial|inherit;*/
+body{
+  background: url('../images/bg1.jpeg') no-repeat fixed;
+  background-size: cover;
+}
+/*#viewCustomersBlock
+#viewTransactionsBlock
+#makeTransactionsBlock*/
+
+/*----------------------------------------------------*/
+/*makeTransactions.php*/
+/*for form decoration*/
+    #transactionForm{
+      /*background-color:#ff9696;*/
+      background-color: #a3c3ff;
+    }
+    input[type=text],input[type=tel]{
+      padding:10px;
+      width:250px;
+      background-color: #ffffff;
+    }
+    input[type=submit]{
+      border-radius: 100%;
+      padding: 15px;
+      font-size: 20px;
+    }
+    input[type=submit]:hover{
+      background-color: green;
+      color:white;
+    }
+/*----------------------------------------------------*/
+ /*viewCustomers.php*/
+ /*Table decoration*/
+ #show_data,td,th{
+      border-collapse: collapse;
+      border:1px solid white;
+    }
+    tr{
+      color: white;
+      background-color: #3269c2;
+    }
+    tr,td,th{
+    	padding: 10px;
+    }
+  .card{
+  }
+th{
+  background-color: #0F5298;
+}
+
+/*--------------to make table scrollable--------------------------------------*/
+th{
+  position:sticky;
+  top:0;
+}
+td{
+     word-wrap: break-word;
+     word-break: break-all;
+  }
+
+.containerDiv{
+      overflow:scroll;
+      height:200px;
+  } 
+/*------------------------TO MAKE HEADER TEXT WHITE-------------*/
+.header-text{
+       color:white;
+}
+/*--------footer here--------*/
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
+.icon-size{
+  font-size:24px;
+  padding-right: 10px;
+}
