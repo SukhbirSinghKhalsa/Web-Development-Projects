@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">	
+	<!--REFRESH THE CONTENT AFTER EVERY N = 5 SECONDS-->
+	<meta http-equiv="refresh" content="5">
+	<!--BOOTSTRAP CDN-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+	 <!-- fontawesome ICONS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black">
+	   <!-- internal CSS -->
+	<!--INTERNAL CSS WITH STYLE TAG-->
+	<style>
+		* {
+  			box-sizing: border-box;
+		}
+		.hr-stylying-class{
+			border:2px solid red;
+			width:auto;
+			margin-right:50px;
+		}
+		#contact-us-block, #menu-section{
+			border:1px solid blue;
+		}
+		iframe{
+			width:100%;
+			height:450px;
+			border:0;
+			
+		}
+		.hr-for-newsletter{
+			
+			margin:auto;
+			border-top:4px solid #F70262;
+		}
+		#newsletter-section{
+			border:4px solid white;
+			background: url("images/img1.jpg") no-repeat;
+			background-size: 100% 100%; 
+			
+		}
+		#container-bottom{
+			background:#14191C;
+			color:white;
+		}
+		#subscribe-btn{
+			background:#F70262;;
+			color:white;
+		}
+		.wrap-newsletter{
+			width:20%;
+			margin:auto;
+		}
+		.newsletter-text{
+			font-size: 30px;
+			font-family: "Archivo Black";
+			font-style: bold;
+		}
+		#newsletter-email-field{
+			width:auto;
+		}
+		#social-media-logo > a{
+			color:white;
+			text-decoration: none;
+			font-size:30px;
+			
+
+		}
+		#social-media-logo > a:hover{
+			color:white;
+			opacity:.5;
+		}
+	</style>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+</head>
+<body>
+	<!--MENU SECTION-->
+	<div id="menu-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-1">web logo</div>
+				<div class="col-sm-1">Homes</div>
+				<div class="col-sm-1">News</div>  
+				<div class="col-sm-1">Events</div>
+				<div class="col-sm-1">Venues</div>
+				<div class="col-sm-1">Blog</div> 
+				<div class="col-sm-1">Contacts</div>
+				<div class="col-sm-1">Speakers</div>
+				<div class="col-sm-1">Reviews</div> 
+				<div class="col-sm-1">sear-logo</div>
+				<div class="col-sm-1">Buy Now</div>
+			</div>
+		</div>
+	</div>
+	<!--END OF MENU SECTION-->
+	<!-- CONTACT US SECTION -->
+	<div id="contact-us-block">
+		<div class="container-fluid" id="contact-us-section">
+			<div class="row">
+				<!--column 1-->
+				<div class="col-sm-4">BLANK SECTION</div>
+				<!--end of column 1-->
+				<!--column 2-->
+				<div class="col-sm-8">
+					<!--BOOKING, SPEAKERS, EMAIL-->
+					<p>CONTACT US</p>
+					<hr class="hr-stylying-class">
+					<div class="container-fluid" id="book-speak-email">
+						<!--BOOKING, SPEAKERS, EMAIL-->
+						<div class="row">
+							<div class="col-sm-* book">
+								<span>BOOKING</span><br/>
+								<span>+919527468445</span>
+							</div>
+							<div class="col-sm-* speak">
+									<span>SPEAKERS</span><br/>
+									<span>+918766814548</span>
+							</div>
+							<div class="col-sm-* email">
+									<span>EMAIL</span><br/>
+									<span>sukhbirkhalsait@gmail.com</span>
+							</div>
+						</div><!--end of BOOKING, SPEAKERS, EMAIL-->
+					</div><!--end of CONTACT US container fluid-->
+					<hr class="hr-stylying-class">
+					<!--FORM INPUTS SECTION-->
+					<div id="form-inputs-section">
+						<!--ROW 1-->
+						<div class="row">
+							<div class="col-sm-10">
+								<form action="" method="post">
+									<label for="email">YOUR MESSAGE</label>
+									<input type="text" class="form-control" id="message-field">
+							</div>
+						</div>
+						<!--END ROW 1-->
+						<!--ROW 2-->
+						<div class="row">
+							<div class="col-sm-5">
+										<label for="name-field">YOUR NAME [REQUIRED]</label>
+										<input type="text" class="form-control" id="name-field" required>
+							</div>
+							<div class="col-sm-5">
+										<label for="email-field">YOUR EMAIL [REQUIRED]</label>
+										<input type="email" class="form-control" id="email-field" required>
+							</div>
+						</div>
+						<!--END ROW 2-->
+						<!--ROW 3-->
+						<div class="row">
+							<div class="col-sm-5">
+										<label for="phone-number-field">PHONE NUMBER [REQUIRED]</label>
+										<input type="tel" class="form-control" id="phone-number-field" required>
+							</div>
+							<div class="col-sm-5" style="margin-top:32px;">
+									 <button type="submit" class="btn btn-primary " id="submit-btn">SEND MESSAGE</button>
+							</div>
+						</div>
+						<!--END ROW 3-->
+					</form><!--END FORM-->
+				</div><!--end of FORM-INPUTS-SECTION-->
+			</div><!--end of column 2 -->
+		</div><!--END OF MAIN ROW -->
+	  </div><!--END OF CONTACT US SECTION-->
+	  <br><br><br><br><br>
+	</div><!--END OF CONTACT US BLOCK-->
+	<!--MAP SECTION-->
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241252.91636843508!2d72.89902752133509!3d19.126212125868012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7939e63637e53%3A0x689d6c28a9b6ec86!2sGolden%20temple%20ganpati!5e0!3m2!1sen!2sin!4v1625415604818!5m2!1sen!2sin"
+	allowfullscreen="true" loading="lazy"> >
+	</iframe>
+	<!--END OF MAP SECTION-->
+
+
+	<div id="container-bottom">
+		<br><br>
+		<div id="newsletter-section">
+			<br><br>
+			<div class="wrap-newsletter">
+				<hr class="hr-for-newsletter">			
+				<div class="d-flex justify-content-center newsletter-text">NEWSLETTER</div>
+				<hr class="hr-for-newsletter">
+			</div>
+			<div class="d-flex justify-content-center">
+				<small  class="bg bg-primary">Subscribe now and receive our weekly updates.</small>
+			</div>
+			<br>
+			<form action="" method="post">
+			<div class="d-flex justify-content-center">
+					<input type="text" class="form-control" id="newsletter-email-field" placeholder="Your email address..." required> &nbsp; &nbsp;
+					<button type="submit" class="btn form-inline " id="subscribe-btn">SUBSCRIBE</button>
+			</div>
+			</form>
+			<br>
+		</div>
+		<br><br>
+		<div class="d-flex justify-content-center" id="social-media-logo">
+			    <a href="#facebook" class="facebook">
+			      <i class="fa fa-facebook icon-size"></i>
+			    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+			    <a href="#twitter" class="twitter">
+			      <i class="fa fa-twitter icon-size"></i>
+			    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+			    <a href="https://www.linkedin.com/in/sukhbirsinghkhalsa/" class="linkedin">
+			      <i class="fa fa-linkedin  icon-size"></i>
+			    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+			    <a href="#instagram" class="instagram">
+			      <i class="fa fa-instagram icon-size"></i>
+			  </a>
+		</div>
+		<div>
+			<p>
+				&#169; Copyright 2021
+				<span style="color:#F70262;">SSKINFOTECH</span>
+			</p>
+		</div>
+</div><!--END OF CONATINER BOTTOM-->
+	</body>
+</html>
