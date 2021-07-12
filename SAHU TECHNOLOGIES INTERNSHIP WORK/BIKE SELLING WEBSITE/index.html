@@ -2,7 +2,8 @@
 <html>
 <head>
 	<!--REFRESH THE CONTENT AFTER EVERY N = 5 SECONDS-->
-	<meta http-equiv="refresh" content="5">
+	<!-- for testing PURPOSE ONLY UNCOMMENT FOR REFLECTING CHANGES IN 5 SEC -->
+	<!-- <meta http-equiv="refresh" content="5"> -->
 	<!--BOOTSTRAP CDN-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
@@ -15,11 +16,364 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
 	 <!-- fontawesome ICONS-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title></title>
-	<style>
-	</style>
+	<!--External CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Home Page</title>
+	
 </head>
 <body>
+<div class="section_1">
+	 <input type="text" placeholder="Search..">
+	 <button type="button">Login</button>
+	 <button type="button">Register</button>
+</div>
+<div class="topnav" id="section_2">
+ <img src="images/web-logo.png" alt="sskinfotech"/>
+	<a href="#">HOME</a>
+	<a href="#">SEARCH</a>
+	<a href="#">COMPARE</a>
+	<a href="#">REVIEWS</a>
+	<a href="#">ABOUT US</a>
+	<a href="#">SERVICES</a>
+	<a href="#">PAGES</a>
+	<a href="#">USERS</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+  </a>
+  <a href="#" class="active">BUY NOW</a>
+</div>
+<div class="section_3">
+	<br/>
+	<br/>
+	<p><span>Find What Are You Looking For</span></p>
+	<p><small style="color: white; background: lightseagreen;">Over 99,000 Latest Bikes in Databank</small></p>
+	<form>
+		<select class="bike-type-list" name="bikes">
+			<option value="select an option" disabled>Select an option</option>
+			<option value="duke-200">KTM 200 Duke</option>
+			<option value="pulsar-150">Bajaj Pulsar 150</option>
+			<option value="pulsar-200">Bajaj Pulsar NS200</option>
+			<option value="apache-160">TVS Apache RTR 160</option>
+			<option value="radeon">TVS Radeon</option>
+		</select>
+		 <span class="search-icon">
+		 <input type="text" placeholder="Search Duke,Pulsar,...">
+		<!--  <i class="fa fa-search"></i> -->
+		 </span>
+		 <button type="submit">Search</button>
+	</form>
+	<br>
+</div>
+<br/>
+<div class="section_4">
+	<p><b>Latest <span>Featured </span>Bikes</b></p>
+	<hr/>
+	<hr/>
+	<p>powered by a 199.5 cc air-cooled engine which produces of power. It has a fuel tank of 13.5 L </p>
+</div>
 
+
+<div class="section_5">
+    <div class="section_5_1">			
+		<span>Want to Purchase New Bike ?</span><br>
+		<span>Are you looking for a Bike ?</span><br>
+		<span>Search your bike in our inventory and request a</span><br>
+		<span>quote on the vehicle of your choosing mate.</span>
+	</div>
+	<div class="col-sm-6 section_5_2">
+		<span>Want tot Sale Your Bike ?</span><br>
+		<span>Do you want to sell your Bike ?</span><br>
+		<span>request sell a bike in our site and</span><br>
+		<span>we shall response back in 24 hours.</span>		
+	</div>
+</div>
+<div class="section_6">
+	<p><b>Latest <span>Trending </span>Bikes</b></p>
+	<hr>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</p>
+</div>
+
+<div class="section_7">
+  <div class="section_7_1">
+	<div class="section_7_0_1">
+		<img src="images/honda-cbr-1.png" alt="HONDA CBR 600"/>
+	</div>
+	<div class="section_7_1_1">
+		<b>Honda Cbr 600</b>
+		<br/>
+		<small>
+			<span>
+				<i class="fa fa-map-marker"></i>
+				Bloomfield, New Jersey, United States
+			</span> 
+			<span>
+				<i class="fa fa-clock-o"></i>
+				July 07,2021
+			</span>
+		</small>
+		<br/>
+		<small>
+			On the Wheel was established in 2016 and has grown fast to become one of south's top motorcycle stop. Our State...
+		</small>
+		<br/>
+		<small>
+			<span>
+				<i class="fa fa-tachometer"></i>
+				8,000km
+			</span>
+			<span>
+				<i class="fa fa-cogs"></i>
+				1500cc
+			</span>
+			<span>
+				<i class="fa fa-car"></i>
+				SxS & UTV
+			</span>
+			<span>
+				<i class="fa fa-gear"></i>
+				Bronze
+			</span>
+		</small>
+	</div>
+	<div class="section_7_1_2">
+		<b>Ad Type : </b><span>Sell</span><br/>
+		<b>Condition : </b><span>New</span><br/>
+		<b>Visits : </b><span>999</span><br/>
+		<b>$3,343</b><small>(Fixed)</small><br/>
+		<button type="button">VIEW AD</button>
+	</div>
+  </div>
+  <div class="section_7_2">
+	<div class="section_7_0_2">
+		<img src="images/kawasakhi-1.png" alt="KAWASKI NINJA BIKE"/>
+	</div>
+	<div class="section_7_2_1">
+		<img src="" alt=""/>
+		<b>Kawasaki Ninja Bike</b>
+		<br/>
+		<small>
+			<span>
+				<i class="fa fa-map-marker"></i>
+				Bellevue, Washington, United States
+			</span> 
+			<span>
+				<i class="fa fa-clock-o"></i>
+				July 07,2021
+			</span>
+		</small>
+		<br/>
+		<small>
+			On the Wheel was established in 2016 and has grown fast to become one of south's top motorcycle stop. Our State...
+		</small>
+		<br/>
+		<small>
+			<span>
+				<i class="fa fa-tachometer"></i>
+				8,000km
+			</span>
+			<span>
+				<i class="fa fa-cogs"></i>
+				1250cc
+			</span>
+			<span>
+				<i class="fa fa-car"></i>
+				Road Bikes
+			</span>
+			<span>
+				<i class="fa fa-gear"></i>
+				Green
+			</span>
+		</small>
+	</div>
+	<div class="section_7_2_2">
+		<b>Ad Type : </b><span>Sell</span><br/>
+		<b>Condition : </b><span>New</span><br/>
+		<b>Visits : </b><span>1999</span><br/>
+		<b>$3,343</b><small>(Negotiable)</small><br/>
+		<button type="button">VIEW AD</button>
+	</div>
+  </div>
+</div>
+<div class="section_8">
+		<span>
+			<br>
+			<i class="fa fa-motorcycle" style="font-size:36px;"></i>
+			<p>1237</p>
+			<p>Total <span>Bikes</span></p>
+			<br>
+		</span>
+		<span>
+			<br>
+			<i class="fa fa-user" style="font-size:36px;"></i>
+			<p>789</p>
+			<p>Verified <span>Dealers</span></p>
+			<br>
+		</span>
+		<span>
+			<br>
+			<i class="fa fa-heart" style="font-size:36px;"></i>
+			<p>1430</p>
+			<p>Active <span>Users</span></p>
+			<br>
+		</span>
+		<span>
+			<br>
+			<i class="fa fa-globe" style="font-size:36px;"></i>
+			<p>63</p>
+			<p>Featured <span>Ads</span></p>
+			<br>
+		</span>
+</div>
+<div class="section_9">
+	<p><b>Latest<span> Blog </span>Bikes</b></p>
+	<hr>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</p>
+</div>
+<div class="container-fluid">
+  <div class="row section_10">
+	<div class="col-sm-4 section_10_1">
+		<br/>
+		<img src="images/bike1.jpeg" alt="bike image"/>
+		<br>
+		<small>July 03, 2021</small>
+		<p><b>Heavy bikes Production for North America will cease for a year.</b></p>
+	</div>
+	<div class="col-sm-4 section_10_2">
+		<br/>
+		<img src="images/bike3.jpeg" alt="bike image"/>
+		<br>
+		<small>July 04, 2021</small>
+		<p><b>We Hear: Yamaha RS Models Could Be Offered in Rear-Wheel.</b></p>
+	</div>
+	<div class="col-sm-4 section_10_3">
+		<br/>
+		<img src="images/bike2.jpeg" alt="bike image"/>
+		<br>
+		<small>July 05, 2021</small>
+		<p><b>Land Rover: Freelancer 2 SE First Impression</b></p>
+	</div>
+   </div>
+</div>
+<br/>
+
+<div class="container">
+
+  <div class="row section_11">
+  	<div class="col-sm-12 section_11_0" style="background:white;">  	
+  		<p style="color: black;">TESTIMONIALS:<small style="color:darkgreen;">(What Our Customers Say About Us ?)</small></p>
+  	</div>
+	<div class="col-sm-4 section_11_1">
+		<p>VERY QUICK AND FAST SUPPORT</p>
+		<small>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</small>
+		<br/><br/>
+		<img src="images/testimonial-1.jpg" style="float:left;" alt="img of testimonial"/>
+		<br/>
+		<b>Hania Shaikh</b>
+		<br>
+		<small>CEO pvt, Inc.</small>
+	</div>
+	<div class="col-sm-4 section_11_2">
+		<p>SOLD BIKE IN 3 MONTHS</p>
+		<small>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</small>
+		<br/><br/>
+		<img src="images/testimonial-2.jpg" style="float:left;" alt="img of testimonial"/>
+		<br/>
+		<b>Humansioi Sarer</b>
+		<br>
+		<small>CTO Glevnch Tech.</small>
+	</div>
+	<div class="col-sm-4 section_11_3">
+		<p>JUST FABULOUS THEME</p>
+		<small>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</small>
+		<br/><br/>
+		<img src="images/testimonial-3.jpg" style="float:left;" alt="img of testimonial"/>
+		<br/>
+		<b>Arsain Tariq</b>
+		<br>
+		<small>CTO, Atlantic Inc.</small>
+	</div>
+  </div>
+</div>
+<br/>
+
+<div class="section_12">
+	<div class="section_12_1">
+		<img src="images/bike-inspection.png" alt="bike img"/>
+	</div>
+	<div class="section_12_2">
+		<span><i>Want To Sale Your Bike ?</i></span>
+		<br>
+		<small><b>BIKE INSPECTION</b></small>
+		<br>
+		<small></small>
+		<br>
+		<ul class="fa-ul ul-one">
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Transmission</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Tires</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Suspension</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Air conditioning</li>
+		</ul>
+		<ul class="fa-ul ul-two">
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Steering</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Lighting</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Exterior</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Engine Diagonostics</li>
+		</ul>
+		<ul class="fa-ul ul-three">
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Engine</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Interior</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Brakes</li>
+			<li><span class="fa-li"><i class="fa fa-check-square"></i></span>Wheel Alignment</li>
+		</ul>
+
+		<button type="button"> SCHEDULE YOUR INSPECTION</button>
+		<br/>
+	</div>
+	<br/>
+</div>
+
+<div class="section_13">
+	<div class="section_13_1">
+		<img src="images/web-logo.png" alt="crazeforbike-logo"/>
+		<br/>
+		<p>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</p>
+		<img src="images/google-1.png" alt="google play-logo"/>
+		<img src="images/apple-1.png" width="153" height="46" alt="appstore-logo"/>
+	</div>
+	<div class="section_13_2">
+		<p><b>Follow Us</b></p>
+		<i class="fa fa-facebook-square"></i><small><a href="#">Facebook</a></small><br/>
+		<i class="fa fa-twitter-square"></i><small><a href="#">Twitter</a></small><br/>
+		<i class="fa fa-linkedin-square"></i><small><a href="https://www.linkedin.com/in/sukhbirsinghkhalsa">Linkedin</a></small><br/>
+		<i class="fa fa-google-plus-square"></i><small><a href="#">Google</a></small><br/>
+	</div>
+	<div class="section_13_3">
+		<p><b>Quick Links</b></p>
+		<small><a href="#">Sample Page</a></small><br>
+		<small><a href="#">About Us</a></small><br>
+		<small><a href="#">Blog</a></small><br>
+		<small><a href="#">Contact Us</a></small>
+	</div>
+	<div class="section_13_4">
+		<p><b>Sign up for Weekly Newsletter</b></p>
+		<small>Lorem ipsum dolor sit amet, vim unum ceteros omittam at. Ne minim oblique duo. Velit fabulas in has. Patrioque disputando theophrastus sea no, has falli dicit tritani at, te mel agam tantas constitut</small></br>
+		<form>
+			<input type="text" id="newsletter-emails" placeholder="Enter your email address" required>
+			<button type="submit">SUBMIT</button>
+		</form>
+	</div>
+</div>
 </body>
+<script>
+function myFunction() {
+  var x = document.getElementById("section_2");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </html>
