@@ -61,11 +61,33 @@
 		.topnav .icon {
 		  display: none;
 		}
+
+		@media screen and (max-width: 1216px) {
+		  .topnav a{display: none;}
+		  .topnav a.icon {
+		    float: right;
+		    display: block;
+		  }
+		}
+
+		@media screen and (max-width: 1216px) {
+		  .topnav.responsive {position: relative;}
+		  .topnav.responsive .icon {
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		  }
+		  .topnav.responsive a {
+		    float: none;
+		    display: block;
+		    text-align: left;
+		  }
+		}
 		/*Nav Responsive end*/
 		.section_3{
 			text-align: center;
 			font-size:20px;
-			background:linear-gradient(to right, rgba(255,255,255,0.4), rgba(0,0,0,0.3)), url("../images/img3.jpg");
+			background:linear-gradient(to right, rgba(255,255,255,0.4), rgba(0,0,0,0.3)), url("images/img3.jpg");
 			background-repeat: no-repeat;
 			background-size:1440px;
 			background-position:left center;
@@ -156,7 +178,7 @@
 			display: table;
 			table-layout: fixed;
 			width: 100%;
-			background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/img2.jpg");
+			background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/img2.jpg");
 			background-repeat:no-repeat;
 			background-size: cover;
 		}
@@ -304,35 +326,3 @@
 			width:50%;
 			}
 	 }
-	 /*FOR RESPONSIVE NAV*/
-	 @media screen and (max-width: 1216px) {
-		  .topnav a{display: none;}
-		  .topnav a.icon {
-		    float: right;
-		    display: block;
-		  }
-		}
-
-	@media screen and (max-width: 1216px) {
-		  .topnav.responsive {position: relative;}
-		  .topnav.responsive .icon {
-		    position: absolute;
-		    right: 0;
-		    top: 0;
-		  }
-		  .topnav.responsive a {
-		    float: none;
-		    display: block;
-		    text-align: left;
-		  }
-		}
-	/*END OF RESPONSIVE NAV*/
-
-	@media screen and (max-width: 457px) {
-		.select_style{
-			width: 100%;
-		}
-		.bike-type-list{
-			margin-bottom: 10px;
-		}
-	}
