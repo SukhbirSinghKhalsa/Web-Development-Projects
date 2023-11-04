@@ -16,5 +16,5 @@
   c)**makeTransactions.php file**
  <br/> Used for transferring money between feeded customers in our system.
 
-others are images files.
+others are images files.  
 ===============================end of TSF-Task1 Details================
