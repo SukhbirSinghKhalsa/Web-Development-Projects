@@ -3,10 +3,11 @@
 
 ===================files information of **#TSF-task1 Directory** =====================
 <br/>1)**singleTransaction.php** contains AJAX Database Loading File
+
 <br/>2)**cleanStyle.css** is CSS file for Internal Styling
 
 3)**index.php** is the home page, followed by 3 other modules of the website ,given below:
- <br/> a)**viewCustomers.php file** 
+<br/> <br/> a)**viewCustomers.php file** 
   <br/>Having all customers details with their email, current balance, and individual transaction using the view button 
   
   b)**viewTransactions.php file**
